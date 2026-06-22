@@ -1,0 +1,31 @@
+# Source: https://coursify.hasanraiyan.me/course/network-theory
+
+![Network Theory](https://res.cloudinary.com/djkpavwmp/image/upload/v1780230911/drively/coursify/thumbnail_6a1c2569e9ca48d4840dce1d.webp)
+
+intermediate39 sectionsUpdated Jun 15, 2026
+
+This Network Theory course is designed as an intermediate-level deep dive into the architecture and operational protocols of modern computer networks. It follows a layered pedagogical approach, mirroring the standard networking stack to help you move from the physical mechanics of data flow to the complex services that power the internet.
+
+### Course outline
+
+1. Data Communication Components
+
+[Introduction to Data Communication & Data Flow](https://coursify.hasanraiyan.me/course/network-theory/introduction-to-data-communication-data-flow) [Network Topologies & Categories](https://coursify.hasanraiyan.me/course/network-theory/network-topologies-categories) [The OSI Reference Model](https://coursify.hasanraiyan.me/course/network-theory/the-osi-reference-model) [Transmission Media](https://coursify.hasanraiyan.me/course/network-theory/transmission-media) [Wired LANs & Connecting Devices](https://coursify.hasanraiyan.me/course/network-theory/wired-lans-connecting-devices) [Wireless LANs (WLAN) & Virtual LANs (VLAN)](https://coursify.hasanraiyan.me/course/network-theory/wireless-lans-wlan-virtual-lans-vlan) [Bandwidth Utilization – Multiplexing](https://coursify.hasanraiyan.me/course/network-theory/bandwidth-utilization-multiplexing) [Spread Spectrum Concepts](https://coursify.hasanraiyan.me/course/network-theory/spread-spectrum-concepts)
+
+2. Data Link Layer and Medium Access Sub Layer
+
+[Fundamentals](https://coursify.hasanraiyan.me/course/network-theory/fundamentals) [Block Coding & Hamming Distance](https://coursify.hasanraiyan.me/course/network-theory/block-coding-hamming-distance) [Cyclic Redundancy Check (CRC)](https://coursify.hasanraiyan.me/course/network-theory/cyclic-redundancy-check-crc) [Flow and Error Control – Stop-and-Wait Protocols](https://coursify.hasanraiyan.me/course/network-theory/flow-and-error-control-stop-and-wait-protocols) [Sliding Window Protocols (Go-Back-N & Selective Repeat ARQ)](https://coursify.hasanraiyan.me/course/network-theory/sliding-window-protocols-go-back-n-selective-repeat-arq) [Random Access Protocols (ALOHA & CSMA)](https://coursify.hasanraiyan.me/course/network-theory/random-access-protocols-aloha-csma) [CSMA/CD (Collision Detection)](https://coursify.hasanraiyan.me/course/network-theory/csmacd-collision-detection) [CSMA/CA Collision Avoidance and Medium Access Control in Wireless Networks](https://coursify.hasanraiyan.me/course/network-theory/csmaca-collision-avoidance-and-medium-access-control-in-wireless-networks)
+
+3. Network Layer
+
+[Introduction to the Network Layer and Switching](https://coursify.hasanraiyan.me/course/network-theory/introduction-to-the-network-layer-and-switching) [Logical Addressing with IPv4](https://coursify.hasanraiyan.me/course/network-theory/logical-addressing-with-ipv4) [IPv4 Addressing Techniques and Usage](https://coursify.hasanraiyan.me/course/network-theory/ipv4-addressing-techniques-and-usage) [Logical Addressing with IPv6](https://coursify.hasanraiyan.me/course/network-theory/logical-addressing-with-ipv6) [Address Mapping: ARP and RARP](https://coursify.hasanraiyan.me/course/network-theory/address-mapping-arp-and-rarp) [Host Configuration Protocols: BOOTP and DHCP](https://coursify.hasanraiyan.me/course/network-theory/host-configuration-protocols-bootp-and-dhcp) [Delivery and Forwarding](https://coursify.hasanraiyan.me/course/network-theory/delivery-and-forwarding) [Unicast Routing Protocols](https://coursify.hasanraiyan.me/course/network-theory/unicast-routing-protocols)
+
+4. Module 4: Transport Layer
+
+[Process-to-Process Communication](https://coursify.hasanraiyan.me/course/network-theory/process-to-process-communication) [User Datagram Protocol (UDP)](https://coursify.hasanraiyan.me/course/network-theory/user-datagram-protocol-udp) [Transmission Control Protocol (TCP)](https://coursify.hasanraiyan.me/course/network-theory/transmission-control-protocol-tcp) [SCTP and Congestion Control](https://coursify.hasanraiyan.me/course/network-theory/sctp-and-congestion-control) [Quality of Service (QoS) and Traffic Shaping Techniques](https://coursify.hasanraiyan.me/course/network-theory/quality-of-service-qos-and-traffic-shaping-techniques)
+
+5. Application Layer
+
+[Introduction to Application Layer Services and Protocols](https://coursify.hasanraiyan.me/course/network-theory/introduction-to-application-layer-services-and-protocols) [Domain Name System (DNS) and Dynamic DNS (DDNS)](https://coursify.hasanraiyan.me/course/network-theory/domain-name-system-dns-and-dynamic-dns-ddns) [TELNET and Remote Access Services](https://coursify.hasanraiyan.me/course/network-theory/telnet-and-remote-access-services) [Electronic Mail Services and Protocols](https://coursify.hasanraiyan.me/course/network-theory/electronic-mail-services-and-protocols) [File Transfer Protocol (FTP)](https://coursify.hasanraiyan.me/course/network-theory/file-transfer-protocol-ftp) [World Wide Web (WWW) and Hypertext Transfer Protocol (HTTP)](https://coursify.hasanraiyan.me/course/network-theory/world-wide-web-www-and-hypertext-transfer-protocol-http) [Simple Network Management Protocol (SNMP)](https://coursify.hasanraiyan.me/course/network-theory/simple-network-management-protocol-snmp) [Bluetooth as an Application-Oriented Wireless Service Platform](https://coursify.hasanraiyan.me/course/network-theory/bluetooth-as-an-application-oriented-wireless-service-platform) [Firewalls and Network Access Control](https://coursify.hasanraiyan.me/course/network-theory/firewalls-and-network-access-control) [Basic Concepts of Cryptography](https://coursify.hasanraiyan.me/course/network-theory/basic-concepts-of-cryptography)
+
+[Start learning](https://coursify.hasanraiyan.me/course/network-theory/introduction-to-the-network-layer-and-switching)

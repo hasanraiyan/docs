@@ -1,0 +1,87 @@
+---
+title: "AI Course Generation: Learn Any Topic with Coursify"
+sidebarTitle: "Course Generation"
+description: "Coursify's AI agents research the web in real time and generate structured, module-based courses on any topic or university syllabus you provide."
+---
+
+Coursify turns any topic — a subject name, a university module title, or a pasted syllabus — into a complete, structured course in seconds. Autonomous AI research agents scan the web for up-to-date information, organize it into a multi-module outline, and write rich educational content for every section. You get a university-level course without writing a single word yourself.
+
+## Generating a course
+
+<Steps>
+  <Step title="Go to the homepage or dashboard">
+    Navigate to [coursify.hasanraiyan.me](https://coursify.hasanraiyan.me) or open your [dashboard](/library/dashboard). You'll see the topic input and mode selector at the top of the page.
+  </Step>
+  <Step title="Select Course mode">
+    Make sure the **Course / Research** toggle is set to **Course**. This tells Coursify to produce a full multi-module curriculum rather than a single research article.
+  </Step>
+  <Step title="Choose Flash or Deep-Research Pro">
+    Free-plan users default to **Flash** mode. If you're on the Pro or Scholar plan, you can switch to **Deep-Research Pro** for a more thorough, multi-pass research sweep. See the [Flash vs Deep-Research](#flash-vs-deep-research) section below for guidance on which to choose.
+  </Step>
+  <Step title="Enter your topic or paste a syllabus">
+    Type a specific subject, module title, or topic. For exam preparation, paste your university module's official syllabus directly — Coursify maps the syllabus units to course modules and preserves the exact structure your exam follows.
+  </Step>
+  <Step title="Review your generated course">
+    The AI agents research the web, build the outline, and write every section. When generation completes, your course is saved automatically to your [library](/library/courses). Open any module from the sidebar to start reading.
+  </Step>
+</Steps>
+
+## How it works
+
+Coursify's generation pipeline runs end-to-end without any manual curation on your part:
+
+1. **Research** — Autonomous agents query verified web sources in real time, pulling the most accurate and current material available for your topic.
+2. **Outline** — Raw research results are structured into a logical course hierarchy: a course title, difficulty level, estimated duration, and a numbered list of modules, each containing multiple sections.
+3. **Content writing** — Each section is populated with rich Markdown prose, including explanatory headings, structured lists, and where relevant: syntax-highlighted code samples, LaTeX math formulas for algorithmic or mathematical topics, and bold key definitions.
+4. **Learning metadata** — A "What you'll learn" summary and a prerequisites list are generated for the course overview page, giving you (and anyone you share it with) an instant picture of what the course covers.
+
+## Flash vs Deep-Research
+
+Coursify offers two generation modes. Choose based on how thorough you need the output to be.
+
+| Feature | Flash | Deep-Research Pro |
+|---|---|---|
+| **Speed** | Fast | Slower (deeper scan) |
+| **Research engine** | Standard web research | Pro AI models |
+| **Generation speed** | Standard | 5× faster |
+| **Best for** | Quick overviews, study guides | Comprehensive study, interview prep |
+| **Available on** | Free plan | Pro plan |
+
+**Flash** is the default for Free-plan users. It uses the standard research engine and produces a solid course outline quickly — ideal when you want a concise overview of an unfamiliar topic or a rapid study guide before a class.
+
+**Deep-Research Pro** runs a deeper, multi-pass research sweep using Pro AI models. It takes longer, but the resulting course is more comprehensive, more nuanced, and better suited to serious academic study or technical interview preparation. Pro users also benefit from a 5× faster generation speed, so even the deeper scan completes quickly.
+
+## What gets generated
+
+Every Coursify course includes:
+
+- **Course header** — Title, difficulty badge (beginner / intermediate / advanced), estimated duration, and last-updated date
+- **What you'll learn** — Bullet-point learning objectives written to match the course scope
+- **Prerequisites** — Any prior knowledge the course assumes
+- **Module list** — Numbered modules, each grouping related sections together
+- **Section content** — Full rich-Markdown prose per section, with headings, tables, code blocks, and math formulas as needed
+- **PYQ sections** — Many courses include a dedicated "Previous Year Question Analysis & Exam Preparation" section at the end of each module, useful for university exam revision
+
+To give you a sense of the output scale: the **Design and Analysis of Algorithms (DAA)** course spans 25 sections across 5 modules covering everything from asymptotic analysis and recurrence relations to NP-completeness and approximation strategies. The **Operating System** course runs to 29 sections. The **System Design for Software Engineers** course covers 33 sections across 8 modules — from CAP theorem to real-world case studies like designing a URL shortener and a chat system.
+
+## Your course library
+
+Every course you generate is saved automatically to your personal library. Open the [dashboard](/library/dashboard) to browse your saved courses, revisit any previous generation, and pick up where you left off. Your full generation history is preserved, so you can always return to a course you created weeks ago without regenerating it.
+
+<Tip>
+  If you want to use your own AI provider API key instead of Coursify's default models, you can add it in your [account settings](/account-setup). Bring-your-own-key lets you connect your existing API subscription directly to Coursify's generation pipeline.
+</Tip>
+
+## Course limits
+
+| Plan | Generations per month | Research engine |
+|---|---|---|
+| **Free** | 5 | Standard (Flash) |
+| **Pro** | Unlimited | Deep-Research Pro |
+| **Scholar** | Unlimited | Deep-Research Pro + shared workspaces |
+
+Free-plan users receive 5 course generations per calendar month. Pro and Scholar users generate as many courses as they need with no monthly cap. See the [plans page](/billing/plans) for a full feature comparison.
+
+<Note>
+  AI-generated content reflects the state of publicly available information at generation time. It may be incomplete, contain inaccuracies, or become outdated. Always cross-reference with official course materials, textbooks, or authoritative sources before relying on Coursify content for academic submission or professional use.
+</Note>

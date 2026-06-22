@@ -1,0 +1,82 @@
+{
+  "projectType": "saas",
+  "projectName": "Coursify",
+  "projectDescription": "Coursify is an AI-powered learning platform that generates structured, university-level courses and research articles on any topic in seconds using real-time deep web research.",
+  "theme": "almond",
+  "primaryColor": "#1c9975",
+  "lightColor": "#eff9f8",
+  "darkColor": "#7cb4a4",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "account-setup"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/course-generation",
+              "features/research-mode",
+              "features/quizzes-and-assessments",
+              "features/rich-reader"
+            ]
+          },
+          {
+            "group": "Your Library",
+            "pages": [
+              "library/dashboard",
+              "library/courses",
+              "library/research-articles"
+            ]
+          },
+          {
+            "group": "Plans & Billing",
+            "pages": [
+              "billing/plans",
+              "billing/faq"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "support/getting-help",
+              "support/privacy",
+              "support/terms",
+              "support/data-deletion"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "AI course generation from any topic or university syllabus",
+    "Real-time deep web research by autonomous AI agents",
+    "Structured course outlines with modules, sections, and progress tracking",
+    "Interactive rich reader with Markdown, LaTeX math, and code syntax highlighting",
+    "AI-generated multiple-choice quizzes for self-assessment",
+    "Research mode for standalone deep-dive articles",
+    "Export to Markdown and PDF (Pro)",
+    "Audio read-aloud speak mode (Pro)",
+    "Shared workspace notebooks (Scholar)",
+    "Free public course library — no account required"
+  ],
+  "publicApiSurface": [
+    "Course generation (Flash mode) — 5 free AI generations/month",
+    "Course generation (Deep-Research Pro mode) — Pro plan",
+    "Research article generation",
+    "Interactive quiz generation",
+    "Dashboard — saved courses and generation history",
+    "Export to Markdown & PDF — Pro plan",
+    "Audio speak mode — Pro plan",
+    "Shared workspace notebooks — Scholar plan",
+    "Provider API key (bring-your-own-key) — saved in account settings"
+  ]
+}

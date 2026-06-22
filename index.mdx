@@ -1,0 +1,80 @@
+---
+title: "Coursify Documentation"
+description: "Learn how to generate AI-powered courses, explore your library, and get the most out of Coursify."
+mode: custom
+---
+
+<div className="mx-auto flex w-full max-w-[720px] flex-col gap-12 px-4 py-10 lg:gap-14 lg:py-16">
+  <div className="flex flex-col items-center gap-6">
+    <div className="flex max-w-[480px] flex-col gap-2 text-center">
+      <h1 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
+        Master anything in seconds
+      </h1>
+      <p className="text-balance text-base text-gray-600 dark:text-gray-400">
+        Coursify uses AI to generate structured, university-level courses on any topic instantly. Search for a subject, pick a mode, and start learning. Use the tabs to explore the docs or search with <kbd>⌘</kbd> <kbd>K</kbd>.
+      </p>
+    </div>
+  </div>
+
+  <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+    <a
+      href="/quickstart"
+      className="group flex flex-col outline-none"
+    >
+      <div
+        className="kb-feature-card relative flex h-[170px] items-center justify-center overflow-hidden rounded-2xl ring-1 ring-gray-100 transition group-hover:ring-gray-200 dark:ring-white/[0.08] dark:group-hover:ring-white/15 saturate-50 group-hover:saturate-100"
+      >
+        <div className="relative flex items-center justify-center">
+          <Icon icon="rocket" size={36} className="!bg-white" />
+        </div>
+      </div>
+      <div className="flex flex-col gap-1 pt-4">
+        <span className="text-base font-medium text-gray-900 dark:text-gray-50">Quickstart</span>
+        <span className="text-sm leading-5 text-gray-600 dark:text-gray-400">
+          Generate your first AI course in under two minutes — no account required to browse.
+        </span>
+      </div>
+    </a>
+
+    <a
+      href="/features/course-generation"
+      className="group flex flex-col outline-none"
+    >
+      <div
+        className="kb-feature-card relative flex h-[170px] items-center justify-center overflow-hidden rounded-2xl ring-1 ring-gray-100 transition group-hover:ring-gray-200 dark:ring-white/[0.08] dark:group-hover:ring-white/15 saturate-50 group-hover:saturate-100"
+      >
+        <div className="relative flex items-center justify-center">
+          <Icon icon="brain" size={36} className="!bg-white" />
+        </div>
+      </div>
+      <div className="flex flex-col gap-1 pt-4">
+        <span className="text-base font-medium text-gray-900 dark:text-gray-50">Course Generation</span>
+        <span className="text-sm leading-5 text-gray-600 dark:text-gray-400">
+          Learn how Coursify's AI agents research the web and build structured courses from any topic or syllabus.
+        </span>
+      </div>
+    </a>
+  </div>
+
+  <div className="flex flex-col gap-4">
+    <h2 className="text-lg font-medium tracking-tight text-gray-900 dark:text-gray-50">Explore the docs</h2>
+
+    <Columns cols={2}>
+      <Card title="Core Features" icon="sparkles" iconType="light" href="/features/course-generation">
+        Course generation, research mode, quizzes, and the rich reader.
+      </Card>
+      <Card title="Your Library" icon="library" iconType="light" href="/library/dashboard">
+        Dashboard, saved courses, and published research articles.
+      </Card>
+    </Columns>
+
+    <Columns cols={2}>
+      <Card title="Plans & Billing" icon="credit-card" iconType="light" href="/billing/plans">
+        Free, Pro, and Scholar plans — features, limits, and FAQs.
+      </Card>
+      <Card title="Support" icon="life-buoy" iconType="light" href="/support/getting-help">
+        Contact support, privacy policy, terms of service, and data deletion.
+      </Card>
+    </Columns>
+  </div>
+</div>

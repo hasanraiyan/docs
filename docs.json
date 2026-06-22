@@ -1,0 +1,91 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "sequoia",
+  "name": "Coursify",
+  "description": "AI-powered learning platform that generates structured, university-level courses on any topic instantly.",
+  "colors": {
+    "primary": "#1c9975",
+    "light": "#eff9f8",
+    "dark": "#7cb4a4"
+  },
+  "favicon": "https://media.brand.dev/e1094fec-f9dd-4b54-8565-55d470872aaf.png",
+  "icons": {
+    "library": "lucide"
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "contextual": {
+    "options": ["copy", "view", "assistant"]
+  },
+  "logo": {
+    "light": "https://media.brand.dev/b04c2a28-2113-40a5-90c3-14496089902c.svg",
+    "dark": "https://media.brand.dev/b04c2a28-2113-40a5-90c3-14496089902c.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "/support/getting-help"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Start Learning Free",
+      "href": "https://coursify.hasanraiyan.me/sign-up"
+    }
+  },
+  "footer": {
+    "socials": {}
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "account-setup"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/course-generation",
+              "features/research-mode",
+              "features/quizzes-and-assessments",
+              "features/rich-reader"
+            ]
+          },
+          {
+            "group": "Your Library",
+            "pages": [
+              "library/dashboard",
+              "library/courses",
+              "library/research-articles"
+            ]
+          },
+          {
+            "group": "Plans & Billing",
+            "pages": [
+              "billing/plans",
+              "billing/faq"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "support/getting-help",
+              "support/privacy",
+              "support/terms",
+              "support/data-deletion"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
